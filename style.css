@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #77acee;
+}
+.container{
+    position: relative;
+    z-index: 100;
+}
+.container .card{
+    position: relative;
+    width: 300px;
+    height: 550px;
+    background: #e6f4f4;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 30px;
+}
+.content-1{
+    position: relative;
+    width:100%;
+    height: 35%;
+    background-image: 
+    linear-gradient(to bottom right,#0a52af,#1270ea);
+}
+.content-1::after{
+    content: 'PLAY';
+    position: absolute;
+    left: 28%;
+    top: 20%;
+    font-size: 5.5em;
+    font-weight: 800;
+    color: #c1d4ec34;
+    -webkit-text-fill-color: rgba(49, 108, 185, 0.231);
+    -webkit-text-stroke-width: 2px;
+}
+.content-1 .arrow-left{
+    position: absolute;
+    top: 8%;
+    left: 6%;
+    color: #e2e2e2;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content-1 span{
+    position: absolute;
+    top: 8%;
+    right: 6%;
+    color:#e2e2e2;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.heart i.fa-heart{
+    color: #f00c0c;
+}
+.content-1 .main-image img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 36%;
+    left: 8%;
+    z-index: 100; 
+}
+.content-2 {
+    height: 120px;
+}
+.content-2 .sub-image{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-2 .sub-image img{
+    width: 30px;
+    height: 30px;
+    margin: 70px 7px 0px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px rgba(230, 244, 244, 0.5),
+    5px 5px 5px rgba(70,70,70,0.12);
+    cursor: pointer;
+    border: 1.5px solid #fff;
+}
+.content-2 .sub-image img:hover{
+    border: 1.5px solid #0b67df;
+}
+.content-3{
+    position: relative;
+    padding: 5px 20px 10px;
+}
+.branding span:nth-child(1){
+    font-size: 18px;
+    font-weight: 500; 
+}
+.branding h4{
+    font-size: 12px;
+    font-weight: 500;
+    color: #464444;
+}
+.ratings span{
+    display: inline-block;
+    text-align: center;
+    line-height: 26px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #fcba26;
+}
+
+.ratings span:nth-child(5){
+    color: #a7a7a3;
+}
+.paragraph p{
+    font-size: 11.5px;
+    color: #000;
+    font-weight: 500;
+}
+.paragraph span{
+    color: #0b67df;
+    font-weight: 700;
+    cursor: pointer;
+}
+.price{
+    display: flex;
+    margin: 30px 0 10px;
+}
+.space{
+    flex: 1;
+}
+.price span:nth-child(1){
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.price span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.price a{
+    font-size: 12px;
+    text-decoration: none;
+    border:none;
+    background-image: 
+    linear-gradient(to right,#0a52af,rgb(18, 112, 234));
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
